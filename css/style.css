@@ -1,0 +1,104 @@
+/*homework code: .inline-block {
+    display: inline-block;
+    vertical-align: top;
+}*/
+.logo {
+    padding: 1%;
+    text-align: center;
+    /*bonus*/margin-top: 10%;
+    /*bonus*/margin-bottom: 40%;
+}
+nav {
+    /*homework code: width: 73%;*/
+    width: 64px;
+    /*bonus*/ height: 1024px;
+    /*bonus*/background-color: black;
+    /*bonus*/float: left;
+    /*bonus*/ position: fixed;
+    outline: 2px solid #C9DAF8;
+
+}
+nav ul {
+    /*homework code: width: 50%;*/
+    /*homework code: margin-left: auto; */
+}
+.heroImg {
+    height: auto;
+    padding: 25px;
+    /*bonus*/width: 100%;
+    /*bonus*/float: right;
+    background-color: black;
+}
+.content {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+footer {
+    /*homework code: background-color: #373738;*/
+    /*bonus*/background-color: black;
+    padding: 1%;
+    /*bonus*/float: right;
+    /*bonus*/width: 100%;
+    /*bonus*/display: flex;
+    /*bonus*/align-items: baseline;
+    outline: 2px solid #C9DAF8;
+}
+footer ul {
+    /*homework code: vertical-align: top;*/
+    padding: 1%;
+    /*bonus*/width: 60%;
+      /*bonus*/display: block;
+      /*bonus*/margin-left: auto;
+}
+/* Code bonus */
+h2 {
+    font-family: 'Orbitron';
+    font-size: 48px;
+    color: #E69138;
+}
+h1 {
+    font-family: 'Orbitron';
+    font-size: 64px;
+    color: #E69138;
+}
+.heroImg p {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    color: #C9DAF8;
+}
+button {
+    font-family: 'Montserrat';
+    font-size: 14px
+}
+li {
+    font-family: 'Orbitron';
+    font-size: 14px;
+    color: #C9DAF8;
+}
+nav ul li {
+    text-align: center;
+    margin-bottom: 20%;
+    padding: 1%;
+}
+footer ul li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+footer p {
+    float: right;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    color: #C9DAF8;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.icon {
+    margin-right:-1%;
+    color: #C9DAF8;
+}
